@@ -1,0 +1,19 @@
+{
+	"folders" : 
+	[
+		{
+			"path" : ".",
+		},
+	],
+
+	"build_system" : 
+	[
+		{
+			"name": "Build Debug",
+			"working_dir": "${project_path}",
+			"cmd": "g++ -c src/*.cpp -g -Wall -m64 -I include -I C:/SDL2-w64/include && g++ *.o -o bin/debug/main -L C:/SDL2-w64/lib -lmingw32 -lSDL2main -lSDL2 -lSDL_image -lSDL_ttf && start bin/release/main",
+			"selector": "source.cpp",
+			"shell": true,
+		}
+	],
+}

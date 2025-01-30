@@ -1,0 +1,1434 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"t",
+				"TETROMINO_O"
+			],
+			[
+				"sca",
+				"render_scale"
+			],
+			[
+				"T",
+				"TILESIZE"
+			],
+			[
+				"found",
+				"found_lines"
+			],
+			[
+				"te",
+				"text_surface"
+			],
+			[
+				"text",
+				"text_texture"
+			],
+			[
+				"d",
+				"drawing_context"
+			],
+			[
+				"SCREE",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"di",
+				"DISPLAY_HEIGHT"
+			],
+			[
+				"ti",
+				"tiles_count"
+			],
+			[
+				"de",
+				"deltaTime"
+			],
+			[
+				"TIck",
+				"TICK_RATE"
+			],
+			[
+				"Ti",
+				"TICK_RATE"
+			],
+			[
+				"tile",
+				"tiles_count"
+			],
+			[
+				"til",
+				"TILESIZE"
+			],
+			[
+				"pre",
+				"prev_x"
+			],
+			[
+				"ro",
+				"rotation_clear_rotatation_label"
+			],
+			[
+				"cetn",
+				"center_y"
+			],
+			[
+				"cent",
+				"center_x"
+			],
+			[
+				"new",
+				"new_y"
+			],
+			[
+				"re",
+				"relative_y"
+			],
+			[
+				"rel",
+				"relative_x"
+			],
+			[
+				"cnet",
+				"center_y"
+			],
+			[
+				"c",
+				"center_y"
+			],
+			[
+				"ce",
+				"center_x"
+			],
+			[
+				"center",
+				"center_y"
+			],
+			[
+				"TI",
+				"TILESIZE"
+			],
+			[
+				"Te",
+				"TetrominoTypes"
+			],
+			[
+				"ma",
+				"max_tick_accumilator"
+			],
+			[
+				"Tile",
+				"TILESIZE"
+			],
+			[
+				"tiel",
+				"tileset"
+			],
+			[
+				"che",
+				"check_move_tile_y"
+			],
+			[
+				"check",
+				"check_move_tile_x"
+			],
+			[
+				"ac",
+				"active_tetromino"
+			],
+			[
+				"a",
+				"active_tetromino"
+			],
+			[
+				"add_t",
+				"add_tetromino"
+			],
+			[
+				"tet",
+				"tetromino"
+			],
+			[
+				"Tetro",
+				"Tetromino"
+			],
+			[
+				"tetr",
+				"Tetromino"
+			],
+			[
+				"Tetrmo",
+				"Tetromino"
+			],
+			[
+				"Til",
+				"TILESIZE"
+			],
+			[
+				"is",
+				"is_able_to_move"
+			],
+			[
+				"SC",
+				"SCREEN_WIDTH"
+			],
+			[
+				"std",
+				"stdio.h"
+			],
+			[
+				"Objec",
+				"ObjectManager"
+			],
+			[
+				"Object",
+				"ObjectType"
+			],
+			[
+				"Ob",
+				"ObjectManager"
+			],
+			[
+				"up",
+				"update_objects"
+			],
+			[
+				"get",
+				"get_y"
+			],
+			[
+				"p_",
+				"p_drawing_context"
+			],
+			[
+				"Pla",
+				"PlayerAnimationState"
+			],
+			[
+				"draw",
+				"drawing_context"
+			],
+			[
+				"obje",
+				"object_manager"
+			],
+			[
+				"drawing",
+				"drawing_context"
+			],
+			[
+				"objet",
+				"object_manager"
+			],
+			[
+				"objec",
+				"object_manager"
+			],
+			[
+				"sc",
+				"SCREEN_HEIGHT"
+			],
+			[
+				"En",
+				"EngineContext"
+			],
+			[
+				"w",
+				"world_x"
+			],
+			[
+				"word",
+				"world_y"
+			],
+			[
+				"wor",
+				"world_y"
+			],
+			[
+				"p",
+				"p_world_y"
+			],
+			[
+				"world",
+				"world_y"
+			],
+			[
+				"star",
+				"starting_mouse_y"
+			],
+			[
+				"start",
+				"starting_mouse_x"
+			],
+			[
+				"mouse",
+				"mouse_x"
+			],
+			[
+				"st",
+				"Stone"
+			],
+			[
+				"g",
+				"Ground"
+			],
+			[
+				"e",
+				"editor_ui_renderer"
+			],
+			[
+				"mosue",
+				"mouse_x"
+			],
+			[
+				"cur",
+				"cursor_y"
+			],
+			[
+				"cu",
+				"cursor_y"
+			],
+			[
+				"curs",
+				"cursor_y"
+			],
+			[
+				"ge",
+				"get_y"
+			],
+			[
+				"app",
+				"apply_y_vel"
+			],
+			[
+				"all",
+				"apply_x_vel"
+			],
+			[
+				"hand",
+				"handle_y_collision"
+			],
+			[
+				"en",
+				"entity"
+			],
+			[
+				"x_co",
+				"x_coll"
+			],
+			[
+				"ent",
+				"entity"
+			],
+			[
+				"enit",
+				"entity"
+			],
+			[
+				"handle",
+				"handle_x_collision"
+			],
+			[
+				"dis",
+				"x_distance"
+			],
+			[
+				"hande",
+				"handle_y"
+			],
+			[
+				"x_di",
+				"x_distance"
+			],
+			[
+				"x_d",
+				"x_direction"
+			],
+			[
+				"gaem",
+				"game_ui_renderer"
+			],
+			[
+				"ani",
+				"animation_timer"
+			],
+			[
+				"an",
+				"animation"
+			],
+			[
+				"tex",
+				"texture_flip"
+			],
+			[
+				"spir",
+				"sprite"
+			],
+			[
+				"enti",
+				"entity_manager"
+			],
+			[
+				"set_x",
+				"set_x_vel"
+			],
+			[
+				"kin",
+				"kinetic_body"
+			],
+			[
+				"p_x",
+				"p_x_acc"
+			],
+			[
+				"redner",
+				"render_scale"
+			],
+			[
+				"ren",
+				"renderer"
+			],
+			[
+				"Ent",
+				"Entity"
+			],
+			[
+				"Enti",
+				"Entity"
+			],
+			[
+				"Entit",
+				"EntityTypes"
+			],
+			[
+				"entit",
+				"entities"
+			],
+			[
+				"Scen",
+				"SceneType"
+			],
+			[
+				"Sce",
+				"SceneType"
+			],
+			[
+				"Rend",
+				"Renderer"
+			],
+			[
+				"Coul",
+				"COULD"
+			],
+			[
+				"game_remo",
+				"game_remove_entity"
+			],
+			[
+				"string",
+				"string.h"
+			],
+			[
+				"cure",
+				"current_width"
+			],
+			[
+				"rende",
+				"renderScale"
+			],
+			[
+				"Ren",
+				"renderScale"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"scre",
+				"screen_height"
+			],
+			[
+				"tmp",
+				"tmp_tex"
+			],
+			[
+				"op",
+				"opponent_new_move"
+			],
+			[
+				"opp",
+				"opponent_new_move"
+			],
+			[
+				"tabl",
+				"table_width"
+			],
+			[
+				"eva",
+				"evaluation"
+			],
+			[
+				"best",
+				"best_move"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"bes",
+				"best_move_eval"
+			],
+			[
+				"table",
+				"table_width"
+			],
+			[
+				"be",
+				"best_move_eval"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"ta",
+				"table_height"
+			],
+			[
+				"talb",
+				"table_height"
+			],
+			[
+				"ev",
+				"evaluation"
+			],
+			[
+				"tabe",
+				"table_width"
+			],
+			[
+				"con",
+				"coin_color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"tta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"colo",
+				"UI: Select Color Scheme"
+			],
+			[
+				"the",
+				"UI: Select Theme"
+			],
+			[
+				"colro",
+				"UI: Select Color Scheme"
+			],
+			[
+				"color",
+				"UI: Select Color Scheme"
+			],
+			[
+				"them",
+				"UI: Select Theme"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"th",
+				"UI: Select Theme"
+			],
+			[
+				"isnta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"sche",
+				"UI: Select Color Scheme"
+			],
+			[
+				"theme",
+				"UI: Select Color Scheme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"view",
+				"View: Toggle Distraction Free"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"set",
+				"Set Syntax: Python"
+			],
+			[
+				"package",
+				"PackageResourceViewer: Open Resource"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 148.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/ruben/Desktop/c projects/mini server and client"
+	],
+	"file_history":
+	[
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tile.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tile.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tetromino.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/tetromino.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/globals.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/renderer.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/renderer.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/main.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/tetris - live github/src/main.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/Makefile - Release",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tetromino.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tile.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tetromino.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/block.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/block.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/tile.c",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/globals.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/renderer.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/drawing_context.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/renderer.c",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/app.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/app.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/utils.h",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/utils.c",
+		"/C/Users/ruben/Desktop/c++ projects/dearimgui test/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/drawing_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/tetris/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/kinetic_body/kinetic_body.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/kinetic_body/kinetic_body.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/player.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/object_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/DELETE quick test/quicktest.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor_ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/Makefile",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/editor/editor_ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/animation_handler/animation_handler.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/animation_handler/animation_handler.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/player.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/build/animation_handler/animation_handler.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/types.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/scene.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/README.md",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/globals.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/ui_renderer/ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/scene.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_ui_renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/game_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/entity.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/drawing_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/README.md",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/globals.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/app.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/scene.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/app.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/game/game.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/scene.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/renderer.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/game/game_context.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/engine/entity_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros - design change/src/ui_renderer/ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/engine/entity.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/entity_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/tile_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/ui_renderer/ui_renderer.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/Makefile_broken",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/sprite/sprite.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/sprite/sprite.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/entity_manager.cpp",
+		"/C/Users/ruben/Desktop/python_programme/nitro_drift/trackeditor/trackeditor.py",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/object_manager.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/src/game/object_manager.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/super mario bros/include/SDL2/SDL_events.h",
+		"/C/Users/ruben/Desktop/weatherballon/calculations/calculate_force.py",
+		"/C/Users/ruben/Desktop/pi calculator/spigot algorythm/main.c",
+		"/C/Users/ruben/Desktop/c projects/snake/include/src/game.h",
+		"/C/Users/ruben/Desktop/c projects/snake/src/game.c",
+		"/C/Users/ruben/Desktop/c projects/snake/src/main.c",
+		"/C/Users/ruben/Desktop/c projects/snake/src/head.c",
+		"/C/Users/ruben/Desktop/c projects/snake/include/src/app.h",
+		"/C/Users/ruben/Desktop/c projects/snake/src/app.c",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui_widgets.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/imgui/imgui_demo.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/Chat app ui/Makefile",
+		"/C/imgui/examples/example_sdl2_sdlrenderer2/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/dearimgui test/run.bat",
+		"/C/Users/ruben/Desktop/c++ projects/dearimgui test/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/App.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/entity.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/Entity.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/app.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/RenderWindow.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/renderwindow.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/main.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/com.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/com.hpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/Globals.hpp",
+		"/C/Users/ruben/AppData/Roaming/Sublime Text/Packages/User/build-release.sublime-build",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/entityhandler.cpp",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/Entityhandler.hpp",
+		"/C/Users/ruben/AppData/Roaming/Sublime Text/Packages/User/build-debug.sublime-build",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/renderer.c",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/Renderer.h",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/src/app.c",
+		"/C/Users/ruben/Desktop/c++ projects/connect 4/include/App.h"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 120.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 47.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/build-debug.sublime-build",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"tet",
+				"src\\tetromino.c"
+			],
+			[
+				"make",
+				"Makefile"
+			],
+			[
+				"tetr",
+				"src\\tetromino.c"
+			],
+			[
+				"redre",
+				"src\\renderer.h"
+			],
+			[
+				"te",
+				"src\\tetromino.c"
+			],
+			[
+				"render",
+				"src\\renderer.c"
+			],
+			[
+				"rendre",
+				"src\\renderer.c"
+			],
+			[
+				"ma",
+				"Makefile"
+			],
+			[
+				"gl",
+				"src\\globals.h"
+			],
+			[
+				"main",
+				"src\\main.h"
+			],
+			[
+				"glo",
+				"src\\globals.h"
+			],
+			[
+				"mainc",
+				"src\\main.c"
+			],
+			[
+				"tile",
+				"src\\tile.h"
+			],
+			[
+				"g",
+				"src\\globals.h"
+			],
+			[
+				"tiel",
+				"src\\tile.h"
+			],
+			[
+				"mian",
+				"src\\main.c"
+			],
+			[
+				"blo",
+				"src\\block.h"
+			],
+			[
+				"",
+				"src\\tile.h"
+			],
+			[
+				"tile.c",
+				"src\\tile.c"
+			],
+			[
+				"glbo",
+				"src\\globals.h"
+			],
+			[
+				"glob",
+				"src\\globals.h"
+			],
+			[
+				"ren",
+				"src\\renderer.h"
+			],
+			[
+				"min",
+				"src\\main.c"
+			],
+			[
+				"u",
+				"src\\utils.h"
+			],
+			[
+				"ut",
+				"src\\utils.c"
+			],
+			[
+				"main.c",
+				"src\\main.c"
+			],
+			[
+				"uti",
+				"src\\utils.h"
+			],
+			[
+				"mai",
+				"src\\main.c"
+			],
+			[
+				"dra",
+				"src\\drawing_context.h"
+			],
+			[
+				"obje",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"ob",
+				"src\\engine\\object.hpp"
+			],
+			[
+				"qui",
+				"DELETE quick test\\quicktest.cpp"
+			],
+			[
+				"objec",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"edi",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"edir",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"o",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"kine",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			],
+			[
+				"k",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			],
+			[
+				"player",
+				"src\\game\\player.hpp"
+			],
+			[
+				"oc",
+				"src\\engine\\object.cpp"
+			],
+			[
+				"omh",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"om",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"obj",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"game",
+				"src\\game\\game.cpp"
+			],
+			[
+				"onjr",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"p",
+				"src\\game\\player.hpp"
+			],
+			[
+				"ed",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"obe",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"o mh",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"ei",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"oj",
+				"src\\engine\\object_manager.cpp"
+			],
+			[
+				"bje",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"e ui c",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"e ui h",
+				"src\\editor\\editor_ui_renderer.hpp"
+			],
+			[
+				"app",
+				"src\\engine\\app.cpp"
+			],
+			[
+				"eidr",
+				"src\\editor\\editor.hpp"
+			],
+			[
+				"eid",
+				"src\\editor\\editor.cpp"
+			],
+			[
+				"a",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"amin",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"a cpp",
+				"src\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"ani",
+				"build\\animation_handler\\animation_handler.hpp"
+			],
+			[
+				"anima",
+				"build\\animation_handler\\animation_handler.cpp"
+			],
+			[
+				"am",
+				"build\\animation_handler\\animation_handler.hpp"
+			],
+			[
+				"pl",
+				"src\\game\\player.hpp"
+			],
+			[
+				"til",
+				"src\\game\\tile.hpp"
+			],
+			[
+				"playre",
+				"src\\game\\player.cpp"
+			],
+			[
+				"gmae",
+				"src\\game\\game.cpp"
+			],
+			[
+				"ki",
+				"src\\kinetic_body\\kinetic_body.cpp"
+			],
+			[
+				"tpye",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"object",
+				"src\\engine\\object_manager.hpp"
+			],
+			[
+				"c gui",
+				"src\\game\\game_ui_renderer.cpp"
+			],
+			[
+				"scene",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"c game",
+				"src\\game\\game.cpp"
+			],
+			[
+				"kin",
+				"src\\kinetic_body\\kinetic_body.cpp"
+			],
+			[
+				"h gui",
+				"src\\game\\game_ui_renderer.hpp"
+			],
+			[
+				"rendere",
+				"src\\engine\\renderer.cpp"
+			],
+			[
+				"ui",
+				"src\\ui_renderer\\ui_renderer.hpp"
+			],
+			[
+				"renderer",
+				"src\\engine\\renderer.cpp"
+			],
+			[
+				"scee",
+				"src\\engine\\scene.cpp"
+			],
+			[
+				"scne",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"rea",
+				"src\\README.md"
+			],
+			[
+				"read",
+				"src\\README.md"
+			],
+			[
+				"ga",
+				"src\\game\\game.hpp"
+			],
+			[
+				"enit",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"globa",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"draw",
+				"src\\engine\\drawing_context.hpp"
+			],
+			[
+				"enitt",
+				"src\\engine\\entity_manager.cpp"
+			],
+			[
+				"ent",
+				"src\\engine\\entity_manager.hpp"
+			],
+			[
+				"scen",
+				"src\\engine\\scene.cpp"
+			],
+			[
+				"ap",
+				"src\\engine\\app.cpp"
+			],
+			[
+				"sce",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"entit",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"globas",
+				"super mario bros - design change\\src\\engine\\globals.hpp"
+			],
+			[
+				"scnee",
+				"src\\engine\\scene.hpp"
+			],
+			[
+				"e ui re cp",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"gla",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"e ui re c",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"payer",
+				"src\\game\\player.hpp"
+			],
+			[
+				"pla",
+				"src\\game\\player.cpp"
+			],
+			[
+				"en",
+				"src\\engine\\entity.cpp"
+			],
+			[
+				"e",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"edo",
+				"src\\editor\\editor.hpp"
+			],
+			[
+				"e ui ",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"t",
+				"src\\game\\tile.cpp"
+			],
+			[
+				"ti",
+				"src\\game\\tile.cpp"
+			],
+			[
+				"e ui",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"ty",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"tpyes",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"type",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"go",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				" ",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"eit",
+				"src\\game\\entity_manager.hpp"
+			],
+			[
+				"tye",
+				"src\\engine\\types.hpp"
+			],
+			[
+				"eni",
+				"src\\engine\\entity.hpp"
+			],
+			[
+				"glb",
+				"src\\engine\\globals.hpp"
+			],
+			[
+				"euid",
+				"src\\editor\\editor_ui_renderer.cpp"
+			],
+			[
+				"edio",
+				"src\\editor\\editor_ui_renderer.hpp"
+			],
+			[
+				"reder",
+				"src\\engine\\renderer.hpp"
+			],
+			[
+				"rd",
+				"src\\engine\\renderer.hpp"
+			],
+			[
+				"g ui",
+				"src\\game\\game_ui_renderer.cpp"
+			],
+			[
+				"pa",
+				"src\\game\\player.hpp"
+			],
+			[
+				"gamer",
+				"src\\game\\game_ui_renderer.cpp"
+			],
+			[
+				"re",
+				"src\\engine\\renderer.cpp"
+			],
+			[
+				"rend",
+				"src\\engine\\renderer.hpp"
+			],
+			[
+				"rnder",
+				"src\\engine\\renderer.hpp"
+			],
+			[
+				"kn",
+				"src\\kinetic_body\\kinetic_body.cpp"
+			],
+			[
+				"kie",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			],
+			[
+				"kien",
+				"src\\kinetic_body\\kinetic_body.hpp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 499.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 378.0
+	},
+	"select_symbol":
+	{
+		"height": 275.0,
+		"last_filter": "rend",
+		"selected_items":
+		[
+			[
+				"rend",
+				"render_windows"
+			],
+			[
+				"window",
+				"render_windows"
+			],
+			[
+				"draw",
+				"draw"
+			],
+			[
+				"death",
+				"Death"
+			]
+		],
+		"width": 584.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 231.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
