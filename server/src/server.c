@@ -106,6 +106,9 @@ int start_server()
 		pthread_join(threads[i], NULL);
 	}
 
+	closesocket(server_socket);
+	WSACleanup();
+
 	return 0;
 }
 
@@ -126,12 +129,13 @@ void * handle_client(void * arg)
 
 		if (bytes_read <= 0) {
 			printf("[WARNING] Client disconnected disgracefully\n");
+			closesocket(*data->client_socket);
 			break;
 		}
 
 		printf("[CLIENT] %s\n", buffer);
 	}
-	
+
 	return NULL;
 }
 
