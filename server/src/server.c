@@ -15,6 +15,8 @@ pthread_t threads[MAX_CLIENTS];
 
 ThreadData thread_data[MAX_CLIENTS];
 
+SOCKET clients[MAX_CLIENTS];
+
 
 int init_wsa()
 {
@@ -84,11 +86,10 @@ int start_server()
 
 	while (server_running)
 	{
-		SOCKET client_socket;
 		struct sockaddr_in client;
 		int client_size = sizeof(client);
-		client_socket = accept(server_socket, (struct sockaddr * ) &client, &client_size);
-		if (client_socket == INVALID_SOCKET)
+		clients[num_clients] = accept(server_socket, (struct sockaddr * ) &client, &client_size);
+		if (clients[num_clients] == INVALID_SOCKET)
 		{
 			printf("Accept failed. Error: %d\n", WSAGetLastError());
 			continue;
@@ -96,11 +97,11 @@ int start_server()
 
 		char ip_address[64];
 
-		get_client_ip_address(ip_address, sizeof(ip_address), &client_socket, &client, &client_size);
+		get_client_ip_address(ip_address, sizeof(ip_address), &clients[num_clients], &client, &client_size);
 
 		printf("[SERVER] New connection established with client: %s\n", ip_address);
 
-		create_thread(&client_socket, &client);
+		create_thread(&clients[num_clients], &client);
 
 	}
 
@@ -141,6 +142,8 @@ void * handle_client(void * arg)
 			closesocket(*data->client_socket);
 			break;
 		}
+
+		send_to_all(buffer, sizeof(buffer), data->client_socket);
 
 		printf("[%s] %s\n", ip_address, buffer);
 	}
@@ -185,4 +188,18 @@ void get_client_ip_address(char ip[], int size, SOCKET * client_socket, struct s
 	}
 	snprintf(ip, size, ip_address);
 
+}
+
+
+void send_to_all(char message[], int size, SOCKET * sender_socket)
+{
+	for (int i = 0; i < num_clients; i++)
+	{
+		if (&clients[i] == sender_socket)
+		{
+			continue;
+		}
+		send(clients[i], message, size, 0);
+
+	}
 }

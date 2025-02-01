@@ -1,4 +1,6 @@
 #include "client.h"
+#include <string.h>
+
 
 bool client_running;
 
@@ -76,14 +78,70 @@ int start_client(const char * server_ip, int port)
 
 	while (true)
 	{
-		char message[BUFFER_SIZE];
-		scanf(" %[^\n]", message);
-		send(client_socket, message, strlen(message), 0);
+		int rc;
+
+		pthread_t send_t;
+		pthread_t recv_t;
+
+		rc = pthread_create(&send_t, NULL, send_thread, NULL);
+
+		if (rc) {
+			printf("Error creating thread\n");
+			return 1;
+		}
+
+		rc = pthread_create(&recv_t, NULL, revc_thread, NULL);
+
+		if (rc) {
+			printf("Error creating thread\n");
+			return 1; 
+		}
+
+		pthread_join(send_t, NULL);
+		pthread_join(recv_t, NULL);
+
 	}
+
+
 
 	closesocket(client_socket);
 	WSACleanup();
 
 	return 0;
 
+}
+
+
+void * revc_thread(void * arg)
+{
+	while (true)
+	{
+		char buffer[BUFFER_SIZE];
+
+		int bytes_recv = recv(client_socket, buffer, BUFFER_SIZE, 0);
+		if (bytes_recv > 0)
+		{
+			buffer[bytes_recv] = '\0'; 
+			printf("%s\n", buffer);
+		} else {
+			printf("Server disconnected.\n");
+		}
+	}
+	return NULL;
+}
+
+void * send_thread(void * arg)
+{
+	while (true)
+	{
+		char message[BUFFER_SIZE];
+		scanf(" %[^\n]", message);
+		if (strcmp(message, "text") == 0)
+		{
+			break;
+		}
+		send(client_socket, message, strlen(message), 0);
+	}
+
+	return NULL;
 }

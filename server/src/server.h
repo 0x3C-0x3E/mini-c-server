@@ -40,6 +40,7 @@ void cleanup();
 
 void get_client_ip_address(char ip[], int size, SOCKET * client_socket, struct sockaddr_in * client, int * client_size);
 
+void send_to_all(char message[], int size, SOCKET * sender_socket);
 
 
 extern bool server_running;
@@ -60,3 +61,5 @@ extern int num_clients;
 extern pthread_t threads[MAX_CLIENTS];
 
 extern ThreadData thread_data[MAX_CLIENTS];
+
+extern SOCKET clients[MAX_CLIENTS];

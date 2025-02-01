@@ -3,6 +3,7 @@
 #include <windows.h>
 #include <ws2tcpip.h>
 
+#include <pthread.h>
 
 #include <stdio.h>
 #include <stdint.h>
@@ -17,6 +18,10 @@ int init_wsa();
 int init_client();
 
 int start_client(const char * server_ip, int port);
+
+void * revc_thread(void * arg);
+
+void * send_thread(void * arg);
 
 extern bool client_running;
 
