@@ -1,5 +1,6 @@
 #include "server.h"
 
+bool server_running = true;
 
 WSADATA wsa_data;
 
@@ -7,7 +8,13 @@ SOCKET server_socket;
 
 struct sockaddr_in server;
 
-bool server_running = true;
+
+int num_clients = 0;
+
+pthread_t threads[MAX_CLIENTS];
+
+ThreadData thread_data[MAX_CLIENTS];
+
 
 int init_wsa()
 {
@@ -90,11 +97,60 @@ int start_server()
 
 		get_client_ip_address(&client_socket, &client, &client_size);
 
+		create_thread(&client_socket);
+
 	}
 
+	for (int i = 0; i < num_clients; i++)
+	{
+		pthread_join(threads[i], NULL);
+	}
 
 	return 0;
 }
+
+void * handle_client(void * arg)
+{
+	ThreadData * data = (ThreadData * ) arg;
+
+
+	char buffer[BUFFER_SIZE];
+	int bytes_read;
+
+	bool client_running = true;
+
+	while (client_running)
+	{
+		memset(buffer, 0, BUFFER_SIZE);
+		bytes_read = recv(*data->client_socket, buffer, BUFFER_SIZE, 0);
+
+		if (bytes_read <= 0) {
+			printf("[WARNING] Client disconnected disgracefully\n");
+			break;
+		}
+
+		printf("[CLIENT] %s\n", buffer);
+	}
+	
+	return NULL;
+}
+
+
+void create_thread(SOCKET * client_socket)
+{
+	thread_data[num_clients].thread_id = num_clients;
+	thread_data[num_clients].client_socket = client_socket;
+
+	int rc = pthread_create(&threads[num_clients], NULL, handle_client, &thread_data[num_clients]);
+
+	if (rc) {
+		printf("Error creating thread\n");
+		return; 
+	}
+
+	num_clients ++;
+}
+
 
 void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, int * client_size)
 {
