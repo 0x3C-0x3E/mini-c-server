@@ -16,7 +16,7 @@ int init_wsa();
 
 int init_client();
 
-int start_client(const char * server_ip, int port)
+int start_client(const char * server_ip, int port);
 
 extern bool client_running;
 

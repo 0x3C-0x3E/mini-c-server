@@ -46,7 +46,7 @@ int init_client()
 		return 1;
 	}
 
-	if (connect(client_socket, (struct sockaddr_in * ) &server, sizeof(server)) == SOCKET_ERROR)
+	if (connect(client_socket, (struct sockaddr*)&server, sizeof(server)) == SOCKET_ERROR)
 	{
 		printf("Failed to connect. Error: %d\n", WSAGetLastError());
 		closesocket(client_socket);
@@ -78,7 +78,7 @@ int start_client(const char * server_ip, int port)
 	send(client_socket, message, strlen(message), 0);
 
 	closesocket(client_socket);
-	WSACleanup;
+	WSACleanup();
 
 	return 0;
 
