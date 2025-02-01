@@ -6,7 +6,10 @@ A server
 A client
 
 ## Usage ##
-First run the server in the cmd
+First run the server in the cmd with
+```
+.\server.exe
+```
 Then run the client with the following arguments
 ```
 .\client.exe IPADDRESSOFYOURSERVER 8080
