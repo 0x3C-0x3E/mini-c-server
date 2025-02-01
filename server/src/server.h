@@ -28,6 +28,8 @@ void close_socket(int server);
 void cleanup();
 
 
+void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, int * client_size);
+
 
 extern WSADATA wsa_data;
 

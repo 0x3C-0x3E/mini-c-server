@@ -88,8 +88,30 @@ int start_server()
 		}
 		printf("[SERVER] New connection established with client\n");
 
+		get_client_ip_address(&client_socket, &client, &client_size);
+
 	}
 
 
 	return 0;
+}
+
+void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, int * client_size)
+{
+	if (getpeername(*client_socket, (struct sockaddr * ) client, client_size) == SOCKET_ERROR)
+	{
+		printf("getpeername failed: %d\n", WSAGetLastError());
+		return;
+	}
+
+	char ip_address [INET_ADDRSTRLEN];
+
+	// Convert the IP address to a string
+	if (inet_ntop(AF_INET, &client->sin_addr, ip_address, INET_ADDRSTRLEN) == NULL)
+	{
+		printf("inet_ntop failed\n");
+		return;
+	}
+	printf("Client IP address: %s\n", ip_address);
+
 }
