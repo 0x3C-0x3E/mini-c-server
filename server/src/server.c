@@ -93,11 +93,14 @@ int start_server()
 			printf("Accept failed. Error: %d\n", WSAGetLastError());
 			continue;
 		}
-		printf("[SERVER] New connection established with client\n");
 
-		get_client_ip_address(&client_socket, &client, &client_size);
+		char ip_address[64];
 
-		create_thread(&client_socket);
+		get_client_ip_address(ip_address, sizeof(ip_address), &client_socket, &client, &client_size);
+
+		printf("[SERVER] New connection established with client: %s\n", ip_address);
+
+		create_thread(&client_socket, &client);
 
 	}
 
@@ -122,6 +125,12 @@ void * handle_client(void * arg)
 
 	bool client_running = true;
 
+	char ip_address[64];
+
+	int thread_client_size = sizeof(*data->client);
+
+	get_client_ip_address(ip_address, sizeof(ip_address), data->client_socket, data->client, &thread_client_size);
+
 	while (client_running)
 	{
 		memset(buffer, 0, BUFFER_SIZE);
@@ -133,17 +142,19 @@ void * handle_client(void * arg)
 			break;
 		}
 
-		printf("[CLIENT] %s\n", buffer);
+		printf("[%s] %s\n", ip_address, buffer);
 	}
 
 	return NULL;
 }
 
 
-void create_thread(SOCKET * client_socket)
+void create_thread(SOCKET * client_socket, struct sockaddr_in * client)
 {
 	thread_data[num_clients].thread_id = num_clients;
 	thread_data[num_clients].client_socket = client_socket;
+	thread_data[num_clients].client = client;
+
 
 	int rc = pthread_create(&threads[num_clients], NULL, handle_client, &thread_data[num_clients]);
 
@@ -156,7 +167,7 @@ void create_thread(SOCKET * client_socket)
 }
 
 
-void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, int * client_size)
+void get_client_ip_address(char ip[], int size, SOCKET * client_socket, struct sockaddr_in * client, int * client_size)
 {
 	if (getpeername(*client_socket, (struct sockaddr * ) client, client_size) == SOCKET_ERROR)
 	{
@@ -172,6 +183,6 @@ void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, 
 		printf("inet_ntop failed\n");
 		return;
 	}
-	printf("Client IP address: %s\n", ip_address);
+	snprintf(ip, size, ip_address);
 
 }

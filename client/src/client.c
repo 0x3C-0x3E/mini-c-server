@@ -74,8 +74,12 @@ int start_client(const char * server_ip, int port)
 		return 1;
 	}
 
-	char message[] = "Hello from client!";
-	send(client_socket, message, strlen(message), 0);
+	while (true)
+	{
+		char message[BUFFER_SIZE];
+		scanf(" %[^\n]", message);
+		send(client_socket, message, strlen(message), 0);
+	}
 
 	closesocket(client_socket);
 	WSACleanup();

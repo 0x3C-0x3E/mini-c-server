@@ -19,6 +19,7 @@ typedef struct
 {
 	int thread_id;
 	SOCKET * client_socket;
+	struct sockaddr_in * client;
 
 } ThreadData;
 
@@ -28,7 +29,7 @@ int init_server();
 
 int start_server();
 
-void create_thread(SOCKET * client_socket);
+void create_thread(SOCKET * client_socket, struct sockaddr_in * client);
 
 void * handle_client(void * arg);
 
@@ -37,7 +38,7 @@ void close_socket(int server);
 void cleanup();
 
 
-void get_client_ip_address(SOCKET * client_socket, struct sockaddr_in * client, int * client_size);
+void get_client_ip_address(char ip[], int size, SOCKET * client_socket, struct sockaddr_in * client, int * client_size);
 
 
 
