@@ -2,7 +2,7 @@
 this is a very simple server and client written in C using the winsock api
 
 ## Features ##
-A server
+A server  
 A client
 
 ## Usage ##
