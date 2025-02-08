@@ -3,7 +3,7 @@ OUTPUT_DIR = build
 OBJ_DIR = $(OUTPUT_DIR)/obj
 
 CXX = g++
-CXXFLAGS = -Wall -g
+CXXFLAGS = -Wall -g -static
 INCLUDE_DIRS = $(addprefix -I, $(wildcard src/*/))
 LIB_DIRS = -Llib
 LIBS = -lmingw32 -lws2_32
